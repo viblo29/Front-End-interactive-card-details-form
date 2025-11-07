@@ -1,0 +1,16 @@
+.payment_form_container {
+  margin-left: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 26px;
+}
+
+.expiration-date-cvc {
+  display: flex;
+  gap: 20px;
+}
+
+.exp-date {
+  display: flex;
+}

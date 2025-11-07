@@ -1,0 +1,10 @@
+.expiration-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}

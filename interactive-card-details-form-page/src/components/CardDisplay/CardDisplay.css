@@ -1,0 +1,95 @@
+.card_display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #ffffff;
+}
+
+.card_display-background {
+  height: 100vh;
+  width: 483px;
+  background-image: url(../../../public/cards-background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cards-container {
+  left: 164px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  width: 541px;
+  position: absolute;
+}
+.card_display-front {
+  width: 447px;
+  height: 245px;
+  background-image: url(../../../public/card-front.svg);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 28px;
+}
+.circles {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+.circle1 {
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  background-color: white;
+}
+.circle2 {
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  border: 1px solid white;
+}
+.card_display-front-card_number {
+  margin-top: 64px;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 3.42px;
+}
+
+.card_display-front-cardholder_name-exp_date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25.5px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.card_display-front-exp_date {
+  display: flex;
+}
+
+.card_display-back {
+  margin-left: 94px;
+  width: 447px;
+  height: 245px;
+  background-image: url(../../../public/card-back.svg);
+  position: relative;
+  z-index: 1;
+}
+
+.card_display-back-cvc {
+  top: 101px;
+  left: 45px;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+  padding: 10px 16px;
+  border-radius: 4px;
+  width: 361px;
+  height: 38px;
+  background-color: #adb5be;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+}

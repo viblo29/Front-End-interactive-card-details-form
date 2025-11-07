@@ -1,0 +1,52 @@
+.input-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.input_title {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+input {
+  border-radius: 8px;
+  padding: 11px 16px;
+  border: 1px solid #dfdee0;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+input::placeholder {
+  opacity: 0.25;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(135deg, #6348fe, #610595) border-box;
+  padding: 10px 15px;
+}
+
+.error_message {
+  color: #ff5050;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: -5px;
+  text-transform: none;
+}
+
+input.input-error {
+  border: 1px solid #ff5050;
+}
+
+input.input-error:focus {
+  border: 1px solid #ff5050;
+  background: none;
+  padding: 11px 16px;
+}
