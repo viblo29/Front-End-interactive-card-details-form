@@ -1,5 +1,6 @@
 import React from "react";
 import "./CardDisplay.css";
+import CardBackDesign from "../../../public/card-back-design.svg"
 
 function CardDisplay({ cardholderName, cardNumber, expMonth, expYear, cvc }) {
   const formattedCardNumber = cardNumber || "0000 0000 0000 0000";
@@ -31,6 +32,8 @@ function CardDisplay({ cardholderName, cardNumber, expMonth, expYear, cvc }) {
         </div>
         <div className="card_display-back">
           <div className="card_display-back-cvc">{formattedCVC}</div>
+          <div className="card_display-back-design">
+          </div>
         </div>
       </div>
     </div>
