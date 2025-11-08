@@ -36,7 +36,6 @@ function ExpirationInput({ formData, handleChange, handleBlur, errors }) {
           inputType="tel"
         />
       </div>
-      {/* ერთი, საერთო შეცდომის შეტყობინება */}
       {combinedError && <span className="error_message">{combinedError}</span>}
     </div>
   );
