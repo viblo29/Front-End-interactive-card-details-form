@@ -74,16 +74,20 @@
   width: 447px;
   height: 245px;
   background-image: url(../../../public/card-back.svg);
-  position: relative;
-  z-index: 1;
+  /* position: relative;
+  z-index: 1; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card_display-back-cvc {
-  top: 101px;
-  left: 45px;
+  margin-top: 101px;
+  /* left: 45px; */
   text-align: right;
-  position: relative;
-  z-index: 2;
+  /* position: absolute;
+  z-index: 2; */
   padding: 10px 16px;
   border-radius: 4px;
   width: 361px;
@@ -92,4 +96,16 @@
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 2px;
+}
+
+
+.card_display-back-design{
+  background-image: url(../../../public/card-back-design.svg);
+  width: 186px;
+  height: 26px;
+  /* position: absolute;
+  z-index: 2;
+  bottom: 47px;
+  right: 129px; */
+  margin-bottom: 47px;
 }
